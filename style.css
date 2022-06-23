@@ -1,0 +1,96 @@
+body{
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    position: fixed;
+    width: 100%;
+}
+
+.nav img{
+    height: 50px;
+    padding-left: 10px;
+}
+
+.links{
+    display: inline-flex;
+    list-style: none;
+}
+
+.links li{
+    text-decoration: underline;
+    padding-right: 20px;
+    color: white;
+}
+
+.jumbotron{
+    margin-top: 69px;
+    height: 700px;
+    width: 1200px;
+    background-image: url(Stock/img-mission-background.jpg);
+    display: inline-flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.jumbotron div{
+    background-color: black;
+    width: 100%;
+}
+
+.images{
+    width: 1000px;
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.images img{
+    height: 200px;
+    width: 300px;
+}
+
+.line{
+    display: inline-flex;
+}
+
+.locations{
+    height: 500px;
+    width: 1200px;
+    background-image: url(Stock/img-locations-background.jpg);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.boxes{
+    display: inline-flex;
+}
+
+.box{
+    width: 300px;
+    margin-right: 40px;
+    margin-left: 40px;
+    background-color: black;
+}
+
+.first{
+    height: 200px;
+}
+
+.second{
+    float: left;
+    padding-left: 20px;
+}
+
+
